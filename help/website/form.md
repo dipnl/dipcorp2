@@ -53,7 +53,7 @@ Overheidswebsites zegt er het volgende over:
 > ook privaatrechtelijke organisaties en natuurlijke personen, voor zover deze een publieke taak uitvoeren. Deze norm
 > is op hen alleen van toepassing als een website in zijn geheel voortkomt uit die publieke taak.
 
-Meer informatie: [https://www.nationaalarchief.nl/archiveren/kennisbank/Richtlijn-Archiveren-Overheidswebsites]
+[Meer informatie op nationaalarchief.nl](https://www.nationaalarchief.nl/archiveren/kennisbank/Richtlijn-Archiveren-Overheidswebsites)
 
 Archief URL
 ----
@@ -77,7 +77,7 @@ volgt: Het gaat om alle websites van
 worden opgericht met het specifieke doel te voorzien in andere behoeften van algemeen belang dan die van industri&euml;le of
 commerci&euml;le aard.
 
-Moeilijke tekst he? Hier vind je een lijstje: (https://www.digitoegankelijk.nl/beleid/voor-wie-is-het-verplicht)
+Moeilijke tekst he? [Je vindt je een lijstje op digitoegankelijk.nl](https://www.digitoegankelijk.nl/beleid/voor-wie-is-het-verplicht)
 
 Toegankelijkheidsverklaring URL
 ----
@@ -91,7 +91,7 @@ toegankelijkheid serieus neemt.
 
 Vul hier de volledige URL van de toegankelijkheidsverklaring in, zoals deze in de adresbalk van de browser staat, inclusief `https://`
 
-Meer informatie: https://www.toegankelijkheidsverklaring.nl
+[Meer informatie op toegankelijkheidsverklaring.nl](https://www.toegankelijkheidsverklaring.nl)
 
 Privacyverklaring URL
 ----
@@ -101,7 +101,7 @@ verplicht bent om bezoekers van je websites duidelijk te informeren over wat je 
 
 Vul hier de volledige URL van de privacyverklaring in, zoals deze in de adresbalk van de browser staat, inclusief `https://`
 
-Meer informatie: https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/recht-op-informatie
+[Meer informatie op autoriteitpersoonsgegevens.nl](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/recht-op-informatie)
 
 Tags
 ----
