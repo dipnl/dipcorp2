@@ -44,8 +44,8 @@ Moet voldoen aan de archiefwet
 Werk je voor een overheidsorganisatie, dan is dit waarchijnlijk belangrijk voor je: De archiefwet is vooral van
 toepassing op websites van de overheid of aan de overheid gerelateerde websites.
 
-Vink dit aan als de website moet voldoen aan de archiefwet. Wanneer is dat het geval? De Richtlijn Archiveren
-Overheidswebsites zegt er het volgende over:
+Vink dit aan als de website moet voldoen aan de archiefwet. Wanneer is dat het geval? De _Richtlijn Archiveren
+Overheidswebsites_ zegt er het volgende over:
 
 > Een overheidswebsite is een website die beheerd wordt door, of in opdracht van een overheidsorganisatie. Onder een
 > overheidsorganisatie wordt hier verstaan een overheidsorgaan zoals bedoeld in de Archiefwet 1995. Daaronder vallen
@@ -61,28 +61,28 @@ Archief URL
 Wordt van de website regelmatig een kopie in een digitaal archief opgeslagen? Vul hier de volledige URL van de
 archiefwebsite in, zoals deze in de adresbalk van de browser staat, inclusief `https://`
 
-Valt onder Tijdelijk Besluit Digitale Toegankelijkheid
+Valt onder _Tijdelijk Besluit Digitale Toegankelijkheid_
 ----
 
 Dit is vooral van toepassing op websites van de overheid of aan de overheid gerelateerde websites. Vink dit aan
 als de website onder het _Tijdelijk Besluit Digitale Toegankelijkheid_ valt.
 
-### Wanneer valt een website onder het Tijdelijk Besluit?
+### Wanneer valt een website onder het _Tijdelijk Besluit_?
 
-Bijna alle websites waar een overheid bij betrokken is hebben met het Besluit te maken. De wet definieert het als
+Bijna alle websites waar een overheid bij betrokken is hebben met het _Besluit_ te maken. De wet definieert het als
 volgt: Het gaat om alle websites van
 
 > de staats-, regionale of lokale overheidsinstanties, publiekrechtelijke instellingen... ...bestaande uit één of
 > meer van deze overheidsinstanties of één of meer van deze publiekrechtelijke instellingen, indien die samenwerkingsverbanden
-worden opgericht met het specifieke doel te voorzien in andere behoeften van algemeen belang dan die van industri&euml;le of
-commerci&euml;le aard.
+worden opgericht met het specifieke doel te voorzien in andere behoeften van algemeen belang dan die van industriële of
+commerciële aard.
 
 Moeilijke tekst he? [Je vindt je een lijstje op digitoegankelijk.nl](https://www.digitoegankelijk.nl/beleid/voor-wie-is-het-verplicht)
 
 Toegankelijkheidsverklaring URL
 ----
 
-Als je hierboven &#39;ja&#39; hebt ingevuld, geldt ook dit voor jouw organisatie. Overheidsinstanties moeten een 
+Als je hierboven "ja" hebt ingevuld, geldt ook dit voor jouw organisatie. Overheidsinstanties moeten een 
 toegankelijkheidsverklaring plaatsen op alle websites waarvoor ze verantwoordelijk zijn. In de verklaring staat in
 hoeverre de website al aan de eisen voldoet en welke maatregelen de instantie neemt om toegankelijkheid te borgen.
 
@@ -114,6 +114,6 @@ Contacten
 Kies voor het toekennen van contacten aan een rol eerst in de linkerkolom om welke rol het gaat.
 
 In de tweede kolom kun je extra informatie invullen. Kies je in de eerste kolom voor leverancier, dan kun je in de
-tweede kolom zelf invullen om welk type leverancier het gaat, bijvoorbeeld &lsquo;ontwerpbureau&rsquo; of
-&#39;hosting&#39;. In de derde kolom kies je welk contact verantwoordelijk is voor deze rol. Als het contact nog niet
+tweede kolom zelf invullen om welk type leverancier het gaat, bijvoorbeeld "ontwerpbureau" of
+"hosting". In de derde kolom kies je welk contact verantwoordelijk is voor deze rol. Als het contact nog niet
 beschikbaar is dan voeg je het eerst toe.
