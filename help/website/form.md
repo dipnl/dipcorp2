@@ -53,7 +53,7 @@ Overheidswebsites zegt er het volgende over:
 > ook privaatrechtelijke organisaties en natuurlijke personen, voor zover deze een publieke taak uitvoeren. Deze norm
 > is op hen alleen van toepassing als een website in zijn geheel voortkomt uit die publieke taak.
 
-Meer informatie: https://www.nationaalarchief.nl/archiveren/kennisbank/Richtlijn-Archiveren-Overheidswebsites
+Meer informatie: [https://www.nationaalarchief.nl/archiveren/kennisbank/Richtlijn-Archiveren-Overheidswebsites]
 
 Archief URL
 ----
@@ -77,7 +77,7 @@ volgt: Het gaat om alle websites van
 worden opgericht met het specifieke doel te voorzien in andere behoeften van algemeen belang dan die van industri&euml;le of
 commerci&euml;le aard.
 
-Moeilijke tekst he? Hier vind je een ijstje: https://www.digitoegankelijk.nl/beleid/voor-wie-is-het-verplicht
+Moeilijke tekst he? Hier vind je een lijstje: (https://www.digitoegankelijk.nl/beleid/voor-wie-is-het-verplicht)
 
 Toegankelijkheidsverklaring URL
 ----
