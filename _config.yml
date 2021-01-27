@@ -1,4 +1,11 @@
 name: Digital Insights Platform
+
 collections:
   updates:
-    output: true
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -3,44 +3,10 @@
 	<h2 class="text-center">Wie gebruikt DIP?</h2>
 	<p class="lead text-center">DIP wordt gebruikt bij onder andere de volgende organisaties</p>
 	<div class="row">
-		<div class="col-6 col-md-3">
-			<img src="assets/brabant.png" class="img-fluid" alt="Provincie Noord-Brabant logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeentetilburg.png" class="img-fluid" alt="Gemeente Tilburg logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeentesittard-geleen.png" class="img-fluid" alt="Gemeente Sittard-Geleen logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeentehoorn.png" class="img-fluid" alt="Gemeente Hoorn logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeenteboxtel.png" class="img-fluid" alt="Gemeente Boxtel logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeentedrimmelen.png" class="img-fluid" alt="Gemeente Drimmelen logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeentesintmichielsgestel.png" class="img-fluid" alt="Gemeente Sint-Michielsgestel logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeentecuijk.png" class="img-fluid" alt="Gemeente Cuijk logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeenteboxmeer.png" class="img-fluid" alt="Gemeente Boxmeer logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeentegrave.png" class="img-fluid" alt="Gemeente Grave logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeentestanthonis.png" class="img-fluid" alt="Gemeente Sint Athonis logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/gemeentemill.png" class="img-fluid" alt="Gemeente Mill en Sint Hubert logo">
-		</div>
-		<div class="col-6 col-md-3">
-			<img src="assets/logo-200-ok.png" class="img-fluid" alt="200ok logo">
-		</div>
+		{% for cust in site.data.klanten %}
+			<div class="col-6 col-md-3">
+				<img src="assets/klanten/{{ cust.logo }}" class="img-fluid" alt="Logo van {{ cust.name }}">
+			</div>
+		{% endfor %}
 	</div>
 </div>
