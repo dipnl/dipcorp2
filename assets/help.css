@@ -18,10 +18,13 @@ body {
 h1 {
   font-family: 'Raleway', sans-serif;
   margin-top: 60px;
+  line-height: 1.5;
 }
 
 h2 {
     color: #241A46;
+    line-height: 1.5;
+    margin: 1.5em 0 0;
 }
 
 hr {

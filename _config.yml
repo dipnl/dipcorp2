@@ -1,1 +1,4 @@
 name: Digital Insights Platform
+collections:
+  updates:
+    output: true
