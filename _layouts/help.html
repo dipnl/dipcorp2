@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<!-- help -->
-<html>
+<html lang="nl">
 
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta charset="utf-8" />
-		<title>{{ page.title }} - DIP Help</title>
-		<link rel="stylesheet" type="text/css" href="{{ "/css/help.css" | relative_url }}?_{{ site.time | url_encode }}">
-	</head>
+<head>
+<meta charset="UTF-8">
+<title>{{ page.title }} | Digital Insights Platform</title>
+<meta name="robots" content="noindex">
+<link href="/assets/help.css?{{ site.time | date_to_xmlschema }}" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149870600-2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+window.ga && ga('set', 'anonymizeIp', true);
+gtag('config', 'UA-149870600-2');
+</script>
+</head>
 
-	<body>
-		
-		<nav>
-			{% include help/menu.html %}
-		</nav>
+<body>
+<a class="navbar-brand" href="/index.html"><img class="img-fluid" src="/assets/dip-dia.svg" alt="Digital Insights Platform logo" height="62px"></a>
+<div class="main">
 
-		<div class="container">
-			{{ content }}
-		</div>
+{{ content }}
 
-	</body>
-
+</div>
+</body>
 </html>

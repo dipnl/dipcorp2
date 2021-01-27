@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(to bottom, #4065a9 151px, white 151px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2;
+  text-align: left;
+  margin: 40px 10% 0 10%;
+  color: #241A46;
+  font-family: sans-serif;
+}
+
+.main {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 60px;
+}
+
+h2 {
+    color: #241A46;
+}
+
+hr {
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+.date {
+  color: #575f78;
+  margin-bottom: 3px;
+}
+
+
+
