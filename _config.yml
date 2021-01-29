@@ -3,6 +3,10 @@ name: Digital Insights Platform
 collections:
   updates:
     output: false
+    fields:
+      title: {type: string}
+      date: {type: date}
+      body: {type: markdown}
 
 defaults:
   - scope:
