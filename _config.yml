@@ -7,6 +7,27 @@ collections:
       title: {type: string}
       date: {type: date}
       body: {type: markdown}
+  everythings:
+    output: false
+    fields:
+      title: string
+      header:
+        type: object
+        fields:
+          banner: image
+          subtitle: string
+      sounds:
+        type: list
+        field: file
+      hilites:
+        type: list
+        fields:
+          text: string
+          author:
+            type: object
+            fields:
+              avatar: image
+              name: string
 
 defaults:
   - scope:
