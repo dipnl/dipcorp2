@@ -11,5 +11,5 @@ title: "Product updates"
 {% for update in site.updates reversed %}
 	<h2>{{ update.title }}</h2>
 	<p>{{ update.date | date: "%d-%m-%Y" }}</p>
-	{{ update.output }}
+	{{ update.content }}
 {% endfor %}
