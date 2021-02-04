@@ -1,3 +1,5 @@
+- name: SIMgroep
+  logo: logo-SIM.png
 - name: Provincie Noord-Brabant
   logo: brabant.png
 - name: Gemeente Tilburg
