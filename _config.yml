@@ -17,6 +17,8 @@ collections:
           banner: image
           subtitle: string
       sounds:
+        label: Sounds
+        label_singular: Sound
         type: list
         field: file
       hilites:
@@ -28,6 +30,7 @@ collections:
             fields:
               avatar: image
               name: string
+      body: markdown
 
 defaults:
   - scope:
