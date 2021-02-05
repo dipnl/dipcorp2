@@ -6,6 +6,7 @@ header:
 sounds:
   - sound1.mp3
   - sound1.mp3
+  - arabic-1.mp3
 hilites:
   - text: Www
     author:
@@ -17,4 +18,4 @@ hilites:
       name: Eee
 ---
 
-Xxx
+Xxxx
