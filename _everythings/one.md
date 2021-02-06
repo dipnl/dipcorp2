@@ -5,7 +5,6 @@ header:
   subtitle: Lll
 sounds:
   - sound1.mp3
-  - sound1.mp3
   - arabic-1.mp3
 hilites:
   - text: Www
@@ -18,4 +17,4 @@ hilites:
       name: Eee
 ---
 
-Xxxx
+Xxxxxxxxxxxxxxxx
