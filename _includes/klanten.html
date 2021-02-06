@@ -5,7 +5,7 @@
 	<div class="row">
 		{% for cust in site.data.klanten %}
 			<div class="col-6 col-md-3">
-				<img src="assets/klanten/{{ cust.logo }}" class="img-fluid" alt="Logo van {{ cust.name }}">
+				<img src="assets/klanten/{{ cust.logo }}" class="img-fluid" title="{{ cust.name }}" alt="Logo van {{ cust.name }}">
 			</div>
 		{% endfor %}
 	</div>
