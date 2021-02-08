@@ -32,6 +32,9 @@ collections:
               name: string
       body: markdown
 
+media_folder: assets
+media_path: assets
+
 defaults:
   - scope:
       path: ""
