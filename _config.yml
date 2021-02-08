@@ -33,7 +33,7 @@ collections:
       body: markdown
 
 media_folder: assets
-media_path: assets
+public_folder: assets
 
 defaults:
   - scope:
