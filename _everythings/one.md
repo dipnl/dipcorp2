@@ -1,7 +1,7 @@
 ---
 title: Iii
 header:
-  banner: image1.jpg
+  banner: assets/daftruck.jpg
   subtitle: Lll
 sounds:
   - sound1.mp3
