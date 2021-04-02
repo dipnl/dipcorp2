@@ -7,8 +7,7 @@
 <!--<meta http-equiv="Cache-control" content="public">-->
 <meta name="Description" content="Digital Insights Platform">
 <title>{% if page.title != "" %}{{ page.title }} | {% endif %}Digital Insights Platform</title>
-<base href="{{ "/" | relative_url }}">
-<link href="assets/main.css?{{ site.time | date_to_xmlschema }}" rel="stylesheet">
+<link href="{{ "/assets/main.css" | relative_url }}?{{ site.time | date_to_xmlschema }}" rel="stylesheet">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149870600-2"></script>
 <script>
@@ -26,7 +25,9 @@ gtag('config', 'UA-149870600-2');
 <div class="bg-gradient">
 <div class="container pb-5 mb-5">
 <nav class="navbar navbar-dark navbar-expand-lg">
-<span class="navbar-brand"><img class="img-fluid" src="assets/dip-dia.svg" alt="Digital Insights Platform logo" height="62px"></span>
+<span class="navbar-brand">
+	<img class="img-fluid" src="{{ "/assets/dip-dia.svg" | relative_url }}" alt="Digital Insights Platform logo" height="62px">
+</span>
 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
@@ -46,14 +47,14 @@ gtag('config', 'UA-149870600-2');
 <h1 class="bold text-light">Digital Insights<br>Platform</h1>
 {{ content }}
 <p class="text-light">
-	<a class="dipknop font-weight-bold" href="probeerdip.html" role="button">Probeer DIP nu gratis</a><br/><br/>
-	<a class="text-light" href="plan-demo.html">of plan een online demo</a>.
+	<a class="dipknop font-weight-bold" href="{{ "/probeerdip.html" | relative_url }}" role="button">Probeer DIP nu gratis</a><br/><br/>
+	<a class="text-light" href="{{ "/plan-demo.html" | relative_url }}">of plan een online demo</a>.
 </p>
 
 </div>
 
 <div class="col-lg">
-<img src="assets/dashboard.png" class="img-fluid" alt="voorbeeld van DIP-scherm">
+<img src="{{ "/assets/dashboard.png" | relative_url }}" class="img-fluid" alt="voorbeeld van DIP-scherm">
 </div>
 </div>
 </div>
@@ -70,7 +71,7 @@ gtag('config', 'UA-149870600-2');
 <p class="lead">Na het toevoegen van een URL start DIP een aantal automatische scans. De eerste resultaten rollen al in enkele seconden binnen, waardoor je weet hoe de website presteert.</p>
 </div>
 <div class="col-12 col-md-4">
-<img src="assets/step1.jpg" class="img-fluid" alt="monopoly-start">
+<img src="{{ "/assets/step1.jpg" | relative_url }}" class="img-fluid" alt="monopoly-start">
 </div>
 </div>
 <hr class="featurette-divider">
@@ -89,7 +90,7 @@ gtag('config', 'UA-149870600-2');
 <p class="lead">Hoe completer het beeld, hoe beter jij je organisatie op tijd kunt adviseren.</p>
 </div>
 <div class="col-12 col-md-4">
-<img src="assets/step2.jpg" class="img-fluid" alt="vrouw met laptop">
+<img src="{{ "/assets/step2.jpg" | relative_url }}" class="img-fluid" alt="vrouw met laptop">
 </div>
 </div>
 <hr class="featurette-divider">
@@ -100,7 +101,7 @@ gtag('config', 'UA-149870600-2');
 <p class="lead">Het DIP-dashboard laat in één oogopslag zien wat jouw aandacht verdient.</p>
 </div>
 <div class="col-12 col-md-4">
-<img src="assets/step3.jpg" class="img-fluid" alt="legpuzzel">
+<img src="{{ "/assets/step3.jpg" | relative_url }}" class="img-fluid" alt="legpuzzel">
 </div>
 </div>
 </div>
@@ -113,7 +114,7 @@ gtag('config', 'UA-149870600-2');
 <h2 class="text-center py-5">Wat doet DIP voor jou?</h2>
 <div class="row py-5">
 <div class="col-12 col-md-6 pb-5 order-0">
-<img class="img-fluid" src="assets/digital-governance.png" alt="">
+<img class="img-fluid" src="{{ "/assets/digital-governance.png" | relative_url }}" alt="">
 </div>
 <div class="col-12 col-md-6 order-1">
 <h3 class="font-weight-bold">Helpt jou bij jouw digital governance</h3>
@@ -128,7 +129,7 @@ gtag('config', 'UA-149870600-2');
 </div>
 <div class="row py-5">
 <!--<div class="d-block d-sm-none col-12 col-md-6 pb-5">
-<img class="img-fluid" src="assets/compliance.png" alt="">
+<img class="img-fluid" src="{{ "/assets/compliance.png" | relative_url }}" alt="">
 </div>-->
 <div class="col-12 col-md-6 order-1 order-md-0">
 <h3 class="font-weight-bold">Maakt compliance inzichtelijk</h3>
@@ -141,13 +142,13 @@ gtag('config', 'UA-149870600-2');
 </ul>
 </div>
 <div class="col-12 col-md-6 pb-5 order-0 order-md-1">
-<img class="img-fluid" src="assets/compliance.png" alt="">
+<img class="img-fluid" src="{{ "/assets/compliance.png" | relative_url }}" alt="">
 </div>
 
 </div>
 <div class="row py-5">
 <div class="col-12 col-md-6 pb-5">
-<img class="img-fluid" src="assets/hourglass.png" alt="">
+<img class="img-fluid" src="{{ "/assets/hourglass.png" | relative_url }}" alt="">
 
 </div>
 <div class="col-12 col-md-6">
@@ -165,7 +166,7 @@ gtag('config', 'UA-149870600-2');
 <div class="col-12 col-md-6 col-lg-4">
 <div class="container">
 <div class="row bg-secondary rounded p-4">
-<img src="assets/pdfcount.png" class="img-fluid center" alt="telraam">
+<img src="{{ "/assets/pdfcount.png" | relative_url }}" class="img-fluid center" alt="telraam">
 <h3 class="text-light">Hoeveel PDF’s heb je online? Valt het tegen?</h3>
 </div>
 <div class="row">
@@ -176,7 +177,7 @@ gtag('config', 'UA-149870600-2');
 <div class="col-12 col-md-6 col-lg-4">
 <div class="container">
 <div class="row bg-secondary rounded p-4">
-<img src="assets/owner.png" class="img-fluid center" alt="eigenaar-icoon">
+<img src="{{ "/assets/owner.png" | relative_url }}" class="img-fluid center" alt="eigenaar-icoon">
 <h3 class="text-light">Van wie is die ene website ook alweer?</h3>
 </div>
 <div class="row">
@@ -188,7 +189,7 @@ gtag('config', 'UA-149870600-2');
 <div class="col-12 col-md-6 col-lg-4">
 <div class="container">
 <div class="row bg-secondary rounded p-4">
-<img src="assets/lock.png" class="img-fluid center" alt="slot">
+<img src="{{ "/assets/lock.png" | relative_url }}" class="img-fluid center" alt="slot">
 <h3 class="text-light">Voorkom het “kapotte slot”</h3>
 </div>
 <div class="row">
@@ -200,7 +201,11 @@ gtag('config', 'UA-149870600-2');
 </div>
 <div class="bg-dark">
 <div class="container text-center py-5">
-<p class="py-5"><a class="dipknop font-weight-bold" href="probeerdip.html" role="button">Probeer DIP nu gratis</a><br/><br/><a class="text-light" href="plan-demo.html">of plan een online demo</a>.</p>
+<p class="py-5">
+	<a class="dipknop font-weight-bold" href="{{ "/probeerdip.html" | relative_url }}" role="button">Probeer DIP nu gratis</a><br/>
+	<br/>
+	<a class="text-light" href="{{ "/plan-demo.html" | relative_url }}">of plan een online demo</a>.
+</p>
 </div>
 </div>
 
@@ -222,19 +227,18 @@ gtag('config', 'UA-149870600-2');
 
 <div class="d-flex flex-row align-bottom">
 <ul class="navbar nav flex-row pl-0 pt-4">
-<li class="navlink pr-4"><a href="privacy.html"><u>Privacy</u></a></li>
-<li class="navlink pr-4"><a href="toegankelijkheid.html"><u>Toegankelijkheid</u></a></li>
-<li class="navlink pr-4"><a href="overdip.html"><u>Over DIP</u></a></li>
-<li class="navlink pr-4"><a href="https://twitter.com/DipUpdates"><img src="assets/twitter.png" class="img-fluid" width="30" height="30" alt="Twitter @DipUpdates"></a></li>
-<li class="navlink"><a href="https://www.linkedin.com/company/digital-insights-platform"><img src="assets/linkedin.svg" class="img-fluid" width="30" height="30" alt="Linkedin DIP profile"></a></li>
+<li class="navlink pr-4"><a href="{{ "/privacy.html" | relative_url }}"><u>Privacy</u></a></li>
+<li class="navlink pr-4"><a href="{{ "/toegankelijkheid.html" | relative_url }}"><u>Toegankelijkheid</u></a></li>
+<li class="navlink pr-4"><a href="{{ "/overdip.html" | relative_url }}"><u>Over DIP</u></a></li>
+<li class="navlink pr-4"><a href="https://twitter.com/DipUpdates"><img src="{{ "/assets/twitter.png" | relative_url }}" class="img-fluid" width="30" height="30" alt="Twitter @DipUpdates"></a></li>
+<li class="navlink"><a href="https://www.linkedin.com/company/digital-insights-platform"><img src="{{ "/assets/linkedin.svg" | relative_url }}" class="img-fluid" width="30" height="30" alt="Linkedin DIP profile"></a></li>
 </ul>
 </div>
 </div>
 <div class="col-12 col-md-5 col-lg-6">
 <picture>
-
-<source srcset="assets/contact.svg" alt="" type="image/svg">
-<img src="assets/contact.svg" alt="" class="img-fluid">
+	<source srcset="{{ "/assets/contact.svg" | relative_url }}" alt="" type="image/svg">
+	<img src="{{ "/assets/contact.svg" | relative_url }}" alt="" class="img-fluid">
 </picture>
 
 
