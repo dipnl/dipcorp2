@@ -14,8 +14,6 @@
   logo: logo-gemeente-huizen.jpg
 - name: Gemeente Drimmelen
   logo: gemeentedrimmelen.png
-- name: 200 ok
-  logo: logo-200-ok.png
 - name: Gemeente Ermelo
   logo: logo-ermelo.png
 - name: Gemeente Zeewolde
@@ -30,5 +28,15 @@
   logo: logo-hilvarenbeek.png
 - name: Gemeente Ede
   logo: logo-ede.png
-- name: ContourdeTwen
+- name: Gemeente Land van Cuijk
+  logo: logo-land-van-cuijk.png
+- name: Gemeente Coevorden
+  logo: logo-gemeente-Coevorden.png
+- name: Gemeente Duij en Waard
+  logo: logo-dijk-en-waard.png
+- name: Gemeente De Fryske Maren
+  logo: logo-de-fryske-marren.png
+- name: ContourdeTwern
   logo: logo-contourdetwern.jpg
+- name: 200 ok
+  logo: logo-200-ok.png
