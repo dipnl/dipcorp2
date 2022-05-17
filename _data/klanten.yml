@@ -1,11 +1,11 @@
-- name: SIMgroep
-  logo: logo-SIM.png
+- name: Provincie Limburg
+  logo: logo-provincie-limburg.png
 - name: Provincie Noord-Brabant
   logo: brabant.png
-- name: Gemeente Tilburg
-  logo: gemeentetilburg.png
 - name: Provincie Gelderland
-  logo: logo-gelderland.png  
+  logo: logo-gelderland.png 
+- name: Gemeente Tilburg
+  logo: gemeentetilburg.png 
 - name: Gemeente Sittard-Geleen
   logo: gemeentesittard-geleen.png
 - name: Gemeente Hoorn
@@ -14,20 +14,6 @@
   logo: logo-gemeente-huizen.jpg
 - name: Gemeente Drimmelen
   logo: gemeentedrimmelen.png
-- name: Gemeente Sint-Michielsgestel
-  logo: gemeentesintmichielsgestel.png
-- name: Gemeente Cuijk
-  logo: gemeentecuijk.png
-- name: Gemeente Boxmeer
-  logo: gemeenteboxmeer.png
-- name: Gemeente Zoetermeer
-  logo: logo-zoetermeer.png
-- name: Gemeente Grave
-  logo: gemeentegrave.png
-- name: Gemeente Sint Athonis
-  logo: gemeentestanthonis.png
-- name: Gemeente Mill en Sint Hubert
-  logo: gemeentemill.png
 - name: 200 ok
   logo: logo-200-ok.png
 - name: Gemeente Ermelo
