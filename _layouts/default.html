@@ -8,7 +8,7 @@
 	<meta name="Description" content="Digital Insights Platform">
 	<title>{% if page.title != "" %}{{ page.title }} | {% endif %}Digital Insights Platform</title>
 	<link href="{{ "/assets/bootstrap.css" | relative_url }}?{{ site.time | date_to_xmlschema }}" rel="stylesheet">
-	<link rel="preload" href="/assets/bootstrap-icons.svg" as="image" type="image/svg+xml">
+	<link rel="preload" href="{{ "/assets/bootstrap-icons.svg" | relative_url }}" as="image" type="image/svg+xml">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-G5QZ9SJVNP"></script>
 	<script>
@@ -118,12 +118,12 @@
 						</li>
 						<li class="navlink pe-4">
 							<a href="https://twitter.com/DipUpdates">
-								<img src="/assets/twitter.png" class="img-fluid" width="30" height="30" alt="Twitter @DipUpdates">
+								<img src="{{ "/assets/twitter.png" class="img-fluid" width="30" height="30" alt="Twitter @DipUpdates">
 							</a>
 						</li>
 						<li class="navlink">
 							<a href="https://www.linkedin.com/company/digital-insights-platform">
-								<img src="/assets/linkedin.svg" class="img-fluid" width="30" height="30" alt="Linkedin DIP profile">
+								<img src="{{ "/assets/linkedin.svg" | relative_url }}" class="img-fluid" width="30" height="30" alt="Linkedin DIP profile">
 							</a>
 						</li>
 					</ul>
@@ -131,8 +131,8 @@
 			</div>
 			<div class="col-12 col-md-5 col-lg-6">
 				<picture>
-					<source srcset="/assets/contact.svg" type="image/svg">
-					<img src="/assets/contact.svg" alt="" class="img-fluid img-80">
+					<source srcset="{{ "/assets/contact.svg" | relative_url }}" type="image/svg">
+					<img src="{{ "/assets/contact.svg" | relative_url }}" alt="" class="img-fluid img-80">
 				</picture>
 			</div>
 		</div>
