@@ -1,5 +1,5 @@
 name: Digital Insights Platform
-baseurl: https://simonbesters.github.io/dipcorp2
+baseurl: dipcorp2
 
 collections:
   updates:
