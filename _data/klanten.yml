@@ -8,6 +8,10 @@
   logo: gemeentetilburg.png 
 - name: Gemeente Sittard-Geleen
   logo: gemeentesittard-geleen.png
+- name: Gemeente Amersfoort
+  logo: logo_amersfoort.png
+- name: Gemeente Nieuwegein
+  logo: logo_nieuwegein.png
 - name: Gemeente Hoorn
   logo: gemeentehoorn.png
 - name: Gemeente Huizen
@@ -40,5 +44,3 @@
   logo: logo-contourdetwern.jpg
 - name: 200 ok
   logo: logo-200-ok.png
-- name: Gemeente Amersfoort
-  logo: logo_amersfoort.png
