@@ -1,4 +1,10 @@
 name: Digital Insights Platform
 baseurl: /dipcorp2
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
 sass:
   sass_dir: _sass

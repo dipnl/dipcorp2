@@ -3,4 +3,225 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "bootstrap";
+// Configuration
+@import "functions";
+@import "variables";
+@import "maps";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+
+:root {
+  --bs-dark: #1b1642;
+  --bs-dark-rgb: rgb(27, 22, 66, 100);
+  --bs-body-color: #1b1642;
+  --bs-body-bg-rgb: rgb(255, 255, 255, 100);
+  --bs-body-bg: #fff;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-link-color: #1b1642;
+  --bs-link-hover-color: black;
+  --bs-primary: #4065A9;
+  --bs-primary-rgb: rgb(64, 101, 169, 100);
+  --bs-btn-padding-x: 3rem;
+  --bs-btn-border-width: 0px;
+  --bs-btn-font-weight: 600;
+  --bs-btn-font-family: var(--bs-font-sans-serif);
+  --bs-btn-border-radius: 1000px;
+  --bs-btn-focus-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(94, 114, 183, 0.5);
+  --bs-btn-color: white;
+  --bs-btn-line-height: 1.8rem;
+  --bs-light-rgb: 220, 230, 239;
+  --bs-light: #DCE6EF;
+}
+
+:root {
+
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(to top left, hsl(226deg, 45%, 46%) 0%, hsl(254deg, 46%, 19%) 100%);
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #dee2e6;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 0.375rem;
+  --bs-border-radius-sm: 0.25rem;
+  --bs-border-radius-lg: 0.5rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-pill: 50rem;
+  --bs-heading-color: red;
+  --bs-code-color: #d63384;
+  --bs-highlight-bg: #fff3cd
+}
+
+:root {
+  --dip-blue: hsl(226deg, 45%, 46%);
+  --dip-black: hsl(254deg, 46%, 19%);
+  --bs-primary: var(--dip-blue);
+  --bs-secondary: var(--bs-blue);
+  --bs-primary-rgb: 65, 89, 170;
+  --bs-secondary-rgb: var(--bs-blue);
+  --bs-body-color-rgb: 31, 32, 35;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+  --bs-body-color: hsl(225deg, 6%, 13%);
+  --bs-border-width: 0px;
+  --bs-link-color: var(--dip-blue);
+  --bs-link-hover-color: #344788;
+  --bs-card-border-width: 0px;
+  --bs-card-box-shadow: 0 3px 6px 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%);
+  --bs-table-striped-color: hsl(225deg, 6%, 13%);
+  --bs-table-striped-bg: #f9fafd;
+  --bs-table-active-color: hsl(225deg, 6%, 13%);
+}
+html, body {
+  min-height: 100vh;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.img-80 {
+  max-width: 80%!important;
+}
+
+.img-60 {
+  max-width: 60%!important;
+}
+
+.dip-gradient {
+  background-image: var(--bs-gradient);
+}
+
+
+
+*, ::after, ::before {
+  box-sizing: border-box
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth
+  }
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+
+  height: 100vh;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: .25
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+  line-height: 1.5;
+  color: var(--bs-dark);
+  background: var(--bs-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700!important;
+}
+
+.h1, h1 {
+  font-size: calc(1.375rem + 1.5vw)
+}
+
+.btn {
+  --bs-btn-padding-x: 3rem;
+  --bs-btn-font-family: var(--bs-btn-font-family);
+  --bs-btn-font-weight: 600;
+  --bs-btn-border-width: 0px;
+  --bs-btn-border-radius: 1000px;
+  --bs-btn-focus-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(94, 114, 183, 0.5);
+}
+.btn-primary {
+  --bs-btn-bg: var(--dip-blue);
+  --bs-btn-hover-bg: #374c91;
+  --bs-btn-active-bg: #344788;
+  --bs-btn-active-border-color: #314380;
+}
+.btn-light {
+  --bs-btn-hover-bg: #f9fafb;
+  --bs-btn-hover-border-color: #f9fafb;
+  --bs-btn-active-bg: #f9fafb;
+  --bs-btn-active-border-color: #f9fafb;
+}
+.btn-dark {
+  --bs-btn-hover-bg: #1c1f23;
+  --bs-btn-hover-border-color: #1a1e21;
+  --bs-btn-active-bg: #1a1e21;
+  --bs-btn-active-border-color: #191c1f;
+}
+.btn-outline-primary {
+  --bs-btn-color: var(--dip-blue);
+  --bs-btn-border-color: var(--dip-blue);
+  --bs-btn-hover-bg: var(--dip-blue);
+  --bs-btn-hover-border-color: var(--dip-blue);
+}

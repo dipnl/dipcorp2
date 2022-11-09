@@ -44,14 +44,14 @@
 <!--navigatie-->
 <nav class="navbar navbar-expand-lg">
 	<div class="container-xxl">
-		<header class="d-flex flex-wrap flex-fill py-3 mb-2">
+		<header class="d-flex flex-wrap align-items-center flex-fill py-3 mb-2">
 			<a href="{{ "index.html" | relative_url }}" class="d-flex mb-2 mb-md-0">
 			<img src="{{ "assets/dip-dia-blue.svg" | relative_url }}" style="height: 43px" alt="Digital Insights Platform"> </a>
 			<ul class="nav col-12 col-md-auto mb-2 justify-content-center flex-fill mb-md-0">
 				{% include menu.html %}
 			</ul>
 			<div>
-				<a href="https://app.digitalinsightsplatform.nl/" type="button" class="btn btn-primary">Inloggen</a>
+				<a href="https://app.digitalinsightsplatform.nl/" type="button" class="btn btn-sm btn-primary">Inloggen</a>
 			</div>
 		</header>
 	</div>
@@ -60,7 +60,7 @@
 {% if page.title %}
 <div class="container-fluid py-5 bg-light">
 	<div class="container-xxl my-5">
-		<div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border bg-white  shadow-lg">
+		<div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border bg-white shadow-lg">
 			<div class="p-3 p-lg-5 pt-lg-3">
 
 				<h1>{{ page.title }}</h1>
@@ -68,54 +68,61 @@
 			</div>
 		</div>
 	</div>
+
 </div>
 {% else %}
 {{ content }}
 {% endif %}
 <!--contact-->
-<div class="bg-light">
-	<a id="contact"></a>
-	<div class="container">
-		<div class="row pt-5">
-			<div class="col-12 col-md-7 col-lg-6">
-				<h2>Neem contact met ons op</h2>
-				<p>Wil je nog iets weten over DIP? We helpen je graag per e-mail of we bellen je wanneer jou het uitkomt.</p>
-				<p class="pt-3">
-					<a class="btn btn-primary" href="mailto:contact@digitalinsightsplatform.nl" role="button">contact@digitalinsightsplatform.nl</a>
-				</p>
+{% if page.title %}
+	<div class="bg-white">
+{% else %}
+	<div class="bg-light">
+{% endif %}
+		<a id="contact"></a>
+		<div class="container">
+			<div class="row pt-5">
+				<div class="col-12 col-md-7 col-lg-6">
+					<h2>Neem contact met ons op</h2>
+					<p>Wil je nog iets weten over DIP? We helpen je graag per e-mail of we bellen je wanneer jou het uitkomt.</p>
+					<p class="pt-3">
+						<a class="btn btn-primary" href="mailto:contact@digitalinsightsplatform.nl" role="button">contact@digitalinsightsplatform.nl</a>
+					</p>
 
-				<div class="d-flex flex-row align-bottom">
-					<ul class="navbar nav flex-row pl-0 pt-4">
-						<li class="navlink pe-4">
-							<a href="{{ "privacy.html" | relative_url }}"> <u>Privacy</u> </a>
-						</li>
-						<li class="navlink pe-4">
-							<a href="{{ "toegankelijkheid.html" | relative_url }}"> <u>Toegankelijkheid</u> </a>
-						</li>
-						<li class="navlink pe-4">
-							<a href="{{ "overons.html" | relative_url }}"> <u>Over ons</u> </a>
-						</li>
-						<li class="navlink pe-4">
-							<a href="https://twitter.com/DipUpdates">
-								<img src="{{ "assets/twitter.png" | relative_url }}" class="img-fluid" width="30" height="30" alt="Twitter @DipUpdates">
-							</a>
-						</li>
-						<li class="navlink pe-4">
-							<a href="https://www.linkedin.com/company/digital-insights-platform">
-								<img src="{{ "assets/linkedin.svg" | relative_url }}" class="img-fluid" width="30" height="30" alt="Linkedin DIP profile">
-							</a>
-						</li>
-					</ul>
+					<div class="d-flex flex-row align-bottom">
+						<ul class="navbar nav flex-row pl-0 pt-4">
+							<li class="navlink pe-4">
+								<a href="{{ "privacy.html" | relative_url }}"> <u>Privacy</u> </a>
+							</li>
+							<li class="navlink pe-4">
+								<a href="{{ "toegankelijkheid.html" | relative_url }}"> <u>Toegankelijkheid</u> </a>
+							</li>
+							<li class="navlink pe-4">
+								<a href="{{ "overons.html" | relative_url }}"> <u>Over ons</u> </a>
+							</li>
+							<li class="navlink pe-4">
+								<a href="https://twitter.com/DipUpdates">
+									<img src="{{ "assets/twitter.png" | relative_url }}" class="img-fluid" width="30" height="30" alt="Twitter @DipUpdates">
+								</a>
+							</li>
+							<li class="navlink pe-4">
+								<a href="https://www.linkedin.com/company/digital-insights-platform">
+									<img src="{{ "assets/linkedin.svg" | relative_url }}" class="img-fluid" width="30" height="30" alt="Linkedin DIP profile">
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-			<div class="col-12 col-md-5 col-lg-6">
-				<picture>
-					<source srcset="{{ "/assets/contact.svg" | relative_url }}" type="image/svg">
-					<img src="{{ "/assets/contact.svg" | relative_url }}" alt="" class="img-fluid img-80">
-				</picture>
+				<div class="col-12 col-md-5 col-lg-6">
+					<picture>
+						<source srcset="{{ "/assets/contact.svg" | relative_url }}" type="image/svg">
+						<img src="{{ "/assets/contact.svg" | relative_url }}" alt="" class="img-fluid img-80">
+					</picture>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
+
+<script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
 </body>
 </html>
