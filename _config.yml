@@ -1,2 +1,4 @@
 name: Digital Insights Platform
 baseurl: /dipcorp2
+sass:
+  sass_dir: _sass
