@@ -1,12 +1,9 @@
-<a id="klanten"></a>
-<div class="container py-5">
-	<h2 class="display-4 text-center">Enkele klanten</h2>
-	<p class="lead text-center">DIP wordt gebruikt bij onder andere de volgende organisaties</p>
-	<div class="row">
-		{% for cust in site.data.klanten %}
-			<div class="col-3 col-md-3 col-xxl-2">
-				<img src="{{ "/assets/klanten/" | append: cust.logo | relative_url }}" class="img-fluid img-60" title="{{ cust.name }}" alt="Logo van {{ cust.name }}">
-			</div>
-		{% endfor %}
-	</div>
+<h2 class="display-4 text-center">Enkele klanten</h2>
+<p class="lead text-center">DIP wordt gebruikt bij onder andere de volgende organisaties</p>
+<div class="row">
+	{% for cust in site.data.klanten %}
+		<div class="col-4 col-sm-4 col-md-3 col-xxl-2">
+			<img src="{{ "/assets/klanten/" | append: cust.logo | relative_url }}" class="img-fluid img-60" title="{{ cust.name }}" alt="Logo van {{ cust.name }}">
+		</div>
+	{% endfor %}
 </div>
