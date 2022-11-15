@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="nl">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--<meta http-equiv="Cache-control" content="public">-->
 	<meta name="Description" content="Digital Insights Platform">
 	<title>{% if page.title %}{{ page.title }} | {% endif %}Digital Insights Platform</title>
-	<link href="{{ "/assets/css/main.css" | relative_url }}?{{ site.time | date_to_xmlschema }}" rel="stylesheet">
-	<link rel="preload" href="{{ "/assets/images/bootstrap-icons.svg" | relative_url }}" as="image" type="image/svg+xml">
-	<link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relative_url }}">
+	<link href="{{ '/assets/css/main.css' | relative_url }}?{{ site.time | date_to_xmlschema }}" rel="stylesheet">
+	<link rel="preload" href="{{ '/assets/images/bootstrap-icons.svg' | relative_url }}" as="image" type="image/svg+xml">
+	<link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-G5QZ9SJVNP"></script>
 	<script>
-        window.dataLayer = window.dataLayer || [];
+		window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+		function gtag() {
+			dataLayer.push(arguments);
+		}
 
-        gtag('js', new Date());
-
-        gtag('config', 'G-G5QZ9SJVNP');
+		gtag('js', new Date());
+		gtag('config', 'G-G5QZ9SJVNP');
 	</script>
 	<!-- Matomo -->
 	<script>
-        var _paq = window._paq = window._paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function () {
-            var u = "https://stats.insightsplatform.nl/";
-            _paq.push(['setTrackerUrl', u + 'matomo.php']);
-            _paq.push(['setSiteId', '1']);
-            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-            g.async = true;
-            g.src = u + 'matomo.js';
-            s.parentNode.insertBefore(g, s);
-        })();
+		var _paq = window._paq = window._paq || [];
+		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function () {
+			var u = "https://stats.insightsplatform.nl/";
+			_paq.push(['setTrackerUrl', u + 'matomo.php']);
+			_paq.push(['setSiteId', '1']);
+			var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+			g.async = true;
+			g.src = u + 'matomo.js';
+			s.parentNode.insertBefore(g, s);
+		})();
 	</script>
 	<!-- End Matomo Code -->
 </head>
@@ -47,13 +45,16 @@
 	<nav class="navbar navbar-expand-lg py-3 mb-2">
 		<div class="container-xxl">
 			<header class="d-flex flex-wrap align-items-center flex-fill">
-				<a href="{{ "index.html" | relative_url }}" class="d-flex mb-2 mb-md-0">
-				<img src="{{ "/assets/images/dip-dia-blue.svg" | relative_url }}" style="height: 43px" alt="Digital Insights Platform"> </a>
+				<a href="{{ 'index.html' | relative_url }}" class="d-flex mb-2 mb-md-0">
+					<img src="{{ '/assets/images/dip-dia-blue.svg' | relative_url }}" style="height: 43px" alt="Digital Insights Platform">
+				</a>
 				<ul class="nav col-12 col-md-auto mb-2 justify-content-center flex-fill mb-md-0">
 					{% include menu.html %}
 				</ul>
 				<div class="d-flex justify-content-center flex-fill">
-					<a href="https://app.digitalinsightsplatform.nl/" type="button" class="btn btn-sm btn-primary">Inloggen</a>
+					<a href="https://app.digitalinsightsplatform.nl/" type="button" class="btn btn-sm btn-primary">
+						Inloggen
+					</a>
 				</div>
 			</header>
 		</div>
@@ -65,7 +66,9 @@
 			<div class="container-xxl px-sm-4">
 				<div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border bg-white shadow-lg">
 					<div class="p-3 p-lg-5 pt-lg-3">
-						<h1>{{ page.title }}</h1>
+						<h1>
+							{{ page.title }}
+						</h1>
 						{{ content }}
 					</div>
 				</div>
@@ -78,35 +81,59 @@
 	{% endif %}
 
 <!--contact-->
+	<a id="contact"></a>
 	<div class="container-fluid px-0 bg-white">
-		<a id="contact"></a>
 		<div class="container-xxl px-3 px-sm-5">
 			<div class="row pt-5">
 				<div class="col-12 col-md-7 col-lg-6">
-					<h2>Neem contact met ons op</h2>
-					<p>Wil je nog iets weten over DIP? We helpen je graag per e-mail of we bellen je wanneer jou het uitkomt.</p>
+					<h2>
+						Neem contact met ons op
+					</h2>
+					<p>
+						Wil je nog iets weten over DIP?
+						We helpen je graag per e-mail of we bellen je wanneer jou het uitkomt.
+					</p>
 					<p class="pt-3">
-						<a class="btn btn-primary" href="mailto:contact@digitalinsightsplatform.nl" role="button">contact@digitalinsightsplatform.nl</a>
+						<a class="btn btn-primary" href="mailto:contact@digitalinsightsplatform.nl" role="button">
+							contact@digitalinsightsplatform.nl
+						</a>
 					</p>
 					<div class="d-flex flex-row align-bottom">
 						<ul class="navbar nav flex-row pl-0 pt-4">
 							<li class="navlink pe-4">
-								<a href="{{ "privacy.html" | relative_url }}"> <u>Privacy</u> </a>
+								<a href="{{ 'privacy.html' | relative_url }}">
+									<u>Privacy</u>
+								</a>
 							</li>
 							<li class="navlink pe-4">
-								<a href="{{ "toegankelijkheid.html" | relative_url }}"> <u>Toegankelijkheid</u> </a>
+								<a href="{{ 'toegankelijkheid.html' | relative_url }}">
+									<u>Toegankelijkheid</u>
+								</a>
 							</li>
 							<li class="navlink pe-4">
-								<a href="{{ "overons.html" | relative_url }}"> <u>Over ons</u> </a>
+								<a href="{{ 'overons.html' | relative_url }}">
+									<u>Over ons</u>
+								</a>
 							</li>
 							<li class="navlink pe-4">
 								<a href="https://twitter.com/DipUpdates">
-									<img src="{{ "/assets/images/twitter.png" | relative_url }}" class="img-fluid" width="30" height="30" alt="Twitter @DipUpdates">
+									<img
+											src="{{ '/assets/images/twitter.png' | relative_url }}"
+											class="img-fluid"
+											width="30"
+											height="30"
+											alt="Twitter @DipUpdates"
+									>
 								</a>
 							</li>
 							<li class="navlink pe-4">
 								<a href="https://www.linkedin.com/company/digital-insights-platform">
-									<img src="{{ "/assets/images/linkedin.svg" | relative_url }}" class="img-fluid" width="30" height="30" alt="Linkedin DIP profile">
+									<img
+											src="{{ '/assets/images/linkedin.svg' | relative_url }}"
+											class="img-fluid"
+											width="30" height="30"
+											alt="Linkedin DIP profile"
+									>
 								</a>
 							</li>
 						</ul>
@@ -114,15 +141,14 @@
 				</div>
 				<div class="col-12 col-md-5 col-lg-6">
 					<picture>
-						<source srcset="{{ "/assets/images/contact.svg" | relative_url }}" type="image/svg">
-						<img src="{{ "/assets/images/contact.svg" | relative_url }}" alt="" class="img-fluid img-80">
+						<source srcset="{{ '/assets/images/contact.svg' | relative_url }}" type="image/svg">
+						<img src="{{ '/assets/images/contact.svg' | relative_url }}" alt="" class="img-fluid img-80">
 					</picture>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
-
+	<script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
 </body>
+
 </html>

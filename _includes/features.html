@@ -1,16 +1,22 @@
-<h2 class="display-4 pb-2 border-bottom">Functionaliteiten</h2>
+<h2 class="display-4 pb-2 border-bottom">
+	Functionaliteiten
+</h2>
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5">
-  {% for cust in site.data.features %}
-  <div class="col d-flex align-items-start">
-    <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-      <svg width="2rem" height="2rem" class="bi" fill="currentColor">
-        <use xlink:href="{{ "assets/images/bootstrap-icons.svg#" }}{{ cust.icon }}"></use>
-      </svg>
-    </div>
-    <div>
-      <h3 class="h4 fw-bold mt-0 mb-1">{{ cust.title }}</h3>
-      <p>{{ cust.text }}</p>
-    </div>
-  </div>
-  {% endfor %}
+	{% for cust in site.data.features %}
+		<div class="col d-flex align-items-start">
+			<div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+				<svg width="2rem" height="2rem" class="bi" fill="currentColor">
+					<use xlink:href="{{ 'assets/images/bootstrap-icons.svg#' }}{{ cust.icon }}"></use>
+				</svg>
+			</div>
+			<div>
+				<h3 class="h4 fw-bold mt-0 mb-1">
+					{{ cust.title }}
+				</h3>
+				<p>
+					{{ cust.text }}
+				</p>
+			</div>
+		</div>
+	{% endfor %}
 </div>
