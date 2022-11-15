@@ -1,46 +1,50 @@
 - name: Provincie Limburg
-  logo: logo-provincie-limburg.png
+  logo: provincie-limburg.png
 - name: Provincie Noord-Brabant
-  logo: brabant.png
+  logo: provincie-brabant.png
 - name: Provincie Gelderland
-  logo: logo-gelderland.png 
+  logo: provincie-gelderland.png
 - name: Gemeente Tilburg
-  logo: gemeentetilburg.png 
+  logo: gemeente-tilburg.png
 - name: Gemeente Sittard-Geleen
-  logo: gemeentesittard-geleen.png
+  logo: gemeente-sittard-geleen.png
 - name: Gemeente Amersfoort
-  logo: logo_amersfoort.png
+  logo: gemeente-amersfoort.png
 - name: Gemeente Nieuwegein
-  logo: logo-nieuwegein.png
+  logo: gemeente-nieuwegein.png
 - name: Gemeente Hoorn
-  logo: gemeentehoorn.png
+  logo: gemeente-hoorn.png
 - name: Gemeente Huizen
-  logo: logo-gemeente-huizen.jpg
+  logo: gemeente-huizen.jpg
 - name: Gemeente Drimmelen
-  logo: gemeentedrimmelen.png
+  logo: gemeente-drimmelen.png
+- name: Gemeente Gooise Meren
+  logo: gemeente-gooisemeren.png
 - name: Gemeente Ermelo
-  logo: logo-ermelo.png
+  logo: gemeente-ermelo.png
 - name: Gemeente Zeewolde
-  logo: logo-zeewolde.png
+  logo: gemeente-zeewolde.png
 - name: Gemeente Harderwijk
-  logo: logo-harderwijk.png
+  logo: gemeente-harderwijk.png
+- name: Gemeente Zoetermeer
+  logo: gemeente-zoetermeer.png
 - name: Gemeente Oisterwijk
-  logo: logo-oisterwijk.png
+  logo: gemeente-oisterwijk.png
 - name: Gemeente Goirle
-  logo: logo-goirle.png
+  logo: gemeente-goirle.png
 - name: Gemeente Hilvarenbeek
-  logo: logo-hilvarenbeek.png
+  logo: gemeente-hilvarenbeek.png
 - name: Gemeente Ede
-  logo: logo-ede.png
+  logo: gemeente-ede.png
 - name: Gemeente Land van Cuijk
-  logo: logo-land-van-cuijk.png
+  logo: gemeente-land-van-cuijk.png
 - name: Gemeente Coevorden
-  logo: logo-gemeente-coevorden.png
+  logo: gemeente-coevorden.png
 - name: Gemeente Dijk en Waard
-  logo: logo-dijk-en-waard.png
+  logo: gemeente-dijk-en-waard.png
 - name: Gemeente De Fryske Marren
-  logo: logo-de-fryske-marren.png
+  logo: gemeente-de-fryske-marren.png
 - name: ContourdeTwern
-  logo: logo-contourdetwern.jpg
+  logo: contourdetwern.jpg
 - name: 200 ok
-  logo: logo-200-ok.png
+  logo: 200-ok.png
