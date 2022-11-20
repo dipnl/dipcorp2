@@ -1,0 +1,184 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+// Configuration
+@import "functions";
+@import "variables";
+@import "maps";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+//@import "tables";
+//@import "forms";
+@import "buttons";
+//@import "transitions";
+//@import "dropdown";
+//@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+//@import "accordion";
+//@import "breadcrumb";
+//@import "pagination";
+//@import "badge";
+//@import "alert";
+//@import "progress";
+//@import "list-group";
+//@import "close";
+//@import "toasts";
+//@import "modal";
+//@import "tooltip";
+//@import "popover";
+//@import "carousel";
+//@import "spinners";
+//@import "offcanvas";
+//@import "placeholders";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+
+:root {
+  --dip-blue: hsl(226, 45%, 46%);
+  --dip-black: hsl(254, 46%, 19%);
+  --bs-primary: var(--dip-blue);
+  --bs-primary-rgb: 65, 89, 170;
+  --bs-dark: hsl(247, 50%, 17%);
+  --bs-dark-rgb: 27, 22, 66, 100;
+  --bs-light: hsl(208, 37%, 90%);
+  --bs-light-rgb: 220, 230, 239;
+  --bs-body-color: hsl(225deg, 6%, 13%);
+  --bs-body-color-rgb: 31, 32, 35;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+  --bs-border-width: 0px;
+  --bs-link-color: var(--dip-blue);
+  --bs-link-hover-color: hsl(226, 45%, 37%);
+  --bs-card-border-width: 0px;
+  --bs-card-box-shadow: 0 3px 6px 0 rgb(65 69 88 / 10%), 0 3px 6px 0 rgb(0 0 0 / 7%);
+  --bs-gradient: linear-gradient(to top left, hsl(226, 45%, 46%) 0%, hsl(254, 46%, 19%) 100%);
+  --bs-btn-padding-x: 3rem;
+  --bs-btn-border-width: 0px;
+  --bs-btn-font-weight: 600;
+  --bs-btn-font-family: var(--bs-font-sans-serif);
+  --bs-btn-border-radius: 1000px;
+  --bs-btn-focus-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(94, 114, 183, 0.5);
+  --bs-btn-color: hsl(0, 0%, 100%);
+  --bs-btn-line-height: 1.8rem;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.img-80 {
+  max-width: 80%!important;
+}
+
+.img-60 {
+  max-width: 60%!important;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth
+  }
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  height: 100vh;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: .25
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+  line-height: 1.5;
+  color: var(--bs-dark);
+  background: var(--bs-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700!important;
+}
+
+.h1, h1 {
+  font-size: calc(1.375rem + 1.5vw)
+}
+
+.btn {
+  --bs-btn-padding-x: 3rem;
+  --bs-btn-font-family: var(--bs-btn-font-family);
+  --bs-btn-font-weight: 600;
+  --bs-btn-border-width: 0px;
+  --bs-btn-border-radius: 1000px;
+  --bs-btn-focus-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(94, 114, 183, 0.5);
+}
+.btn-primary {
+  --bs-btn-bg: var(--dip-blue);
+  --bs-btn-hover-bg: #374c91;
+  --bs-btn-active-bg: #344788;
+  --bs-btn-active-border-color: #314380;
+}
+.btn-light {
+  --bs-btn-hover-bg: #f9fafb;
+  --bs-btn-hover-border-color: #f9fafb;
+  --bs-btn-active-bg: #f9fafb;
+  --bs-btn-active-border-color: #f9fafb;
+}
+.btn-dark {
+  --bs-btn-hover-bg: #1c1f23;
+  --bs-btn-hover-border-color: #1a1e21;
+  --bs-btn-active-bg: #1a1e21;
+  --bs-btn-active-border-color: #191c1f;
+}
+.btn-outline-primary {
+  --bs-btn-color: var(--dip-blue);
+  --bs-btn-border-color: var(--dip-blue);
+  --bs-btn-hover-bg: var(--dip-blue);
+  --bs-btn-hover-border-color: var(--dip-blue);
+}
+
+/* help pages */
+
+.date {
+  color: #575f78;
+  margin-bottom: 3px;
+}

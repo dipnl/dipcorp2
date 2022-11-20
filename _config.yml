@@ -1,42 +1,8 @@
 name: Digital Insights Platform
-
-collections:
-  updates:
-    output: false
-    fields:
-      title: {type: string}
-      date: {type: date}
-      body: {type: markdown}
-  everythings:
-    output: false
-    fields:
-      title: string
-      header:
-        type: object
-        fields:
-          banner: image
-          subtitle: string
-      sounds:
-        label: Sounds
-        label_singular: Sound
-        type: list
-        field: file
-      hilites:
-        type: list
-        fields:
-          text: string
-          author:
-            type: object
-            fields:
-              avatar: image
-              name: string
-      body: markdown
-
-media_folder: assets
-public_folder: assets
-
 defaults:
   - scope:
       path: ""
     values:
-      layout: default
+      layout: "default"
+sass:
+  sass_dir: _sass

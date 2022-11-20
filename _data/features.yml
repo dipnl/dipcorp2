@@ -1,0 +1,27 @@
+- title: Pagina's
+  text: We crawlen regelmatige alle websites, zodat je inzicht heb in de omvang.
+  icon: file-text
+- title: PDF's
+  text: Je hebt voor elke website een actuele telling van het aantal PDF-bestanden.
+  icon: shield-check
+- title: Verplichte standaarden
+  text: Altijd actueel inzicht in welke websites voldoen aan standaarden.
+  icon: shield-check
+- title: Certificaten
+  text: Inzicht in de gebruikte certificaten en geldigheidsduur.
+  icon: shield-check
+- title: Hosting
+  text: In welk land en bij welke hostingpartij staat je website.
+  icon: hdd-network
+- title: Governance
+  text: Leg voor elke website de relevante rollen vast.
+  icon: person-video2
+- title: Toegankelijkheid
+  text: Al je verklaringen in één overzicht, inclusief status en geldigheid.
+  icon: heart
+- title: Statistieken
+  text: Welke statistiekentools draaien er op een website?
+  icon: eye-slash
+- title: Snelheid
+  text: Hoe presteert elke website? Welke is te langzaam?
+  icon: speedometer2
