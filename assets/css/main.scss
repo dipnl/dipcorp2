@@ -183,7 +183,7 @@ hr {
   margin-bottom: 3px;
 }
 
-/* image sizes */
+/* sizes */
 
 .klantenlogo {
   max-width: 100px;
@@ -196,4 +196,9 @@ hr {
 .svg-size {
   width: 2rem;
   height: 2rem;
+}
+
+.calendly-size {
+  min-width: 320px;
+  height: 500px;
 }
