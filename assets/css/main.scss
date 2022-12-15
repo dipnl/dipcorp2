@@ -77,6 +77,22 @@
   --bs-btn-line-height: 1.8rem;
 }
 
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --dip-black: hsl(197, 94%, 51%);
+    --bs-light: #041f1f;
+    --bs-light-rgb: 46, 47, 48;
+    --bs-white-rgb: 31, 32, 33;
+    --bs-white: hsl(210, 3%, 13%);
+    --bs-body-bg: hsl(210, 3%, 13%);
+    --bs-body-color: hsl(0, 0%, 100%);
+    --bs-body-color-rgb: rgb(255, 255, 255);
+    --bs-gradient: linear-gradient(to top left, hsl(240, 41%, 63%) 0%, hsl(216, 99%, 58%) 100%);
+    --bs-link-color: #6c86da;
+  }
+}
+
 html, body {
   min-height: 100vh;
 }
@@ -186,7 +202,10 @@ hr {
 /* sizes */
 
 .klantenlogo {
-  max-width: 100px;
+  max-width: 120px;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .diplogo {
@@ -202,3 +221,4 @@ hr {
   min-width: 320px;
   height: 500px;
 }
+
