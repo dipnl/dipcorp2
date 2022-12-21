@@ -6,7 +6,7 @@
 	<!--<meta http-equiv="Cache-control" content="public">-->
 	<meta name="Description" content="Digital Insights Platform">
 	<title>{% if page.title %}{{ page.title }} | {% endif %}Digital Insights Platform</title>
-	<link href="{{ '/assets/css/main.css' | relative_url }}?{{ site.time | date_to_xmlschema }}" rel="stylesheet">
+	<link href="{{ '/assets/css/main.css' | relative_url }}?{{ site.time | date: '%s' }}" rel="stylesheet">
 	<link rel="preload" href="{{ '/assets/images/bootstrap-icons.svg' | relative_url }}" as="image" type="image/svg+xml">
 	<link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
