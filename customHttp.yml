@@ -13,11 +13,12 @@ customHeaders:
         value: >-
           default-src 'self' 'report-sample'; 
           script-src 'sha256-uoNRkmsJXYmM217Gfo1aRta/CNi11e9Sr3XCyq3wUEw=' 'sha256-llM8Ulx+B4FpHNpaafiD5VfO0eIVU4iH7sRLmRJQUg0=' https://assets.calendly.com/assets/external/widget.js https://stats.insightsplatform.nl/matomo.js https://www.googletagmanager.com/gtag/js https://digitalinsightsplatform.nl/assets/js/bootstrap.min.js;
-          style-src 'self' https://assets.calendly.com; object-src 'none';
+          style-src 'self' https://assets.calendly.com 'sha256-J89chkCmfxlhh9kqoc4f2G/swrFOCQrODSwqnlsnywk='; 
+          object-src 'none';
           base-uri 'self'; 
           connect-src 'self' https://stats.insightsplatform.nl/ https://*.google-analytics.com/; 
           font-src 'self'; 
-          frame-src 'self' https://digitalins10478.activehosted.com; 
+          frame-src 'self' https://digitalins10478.activehosted.com https://calendly.com/; 
           img-src 'self'; 
           manifest-src 'self'; 
           media-src 'self'; 
